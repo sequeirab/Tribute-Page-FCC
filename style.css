@@ -6,10 +6,18 @@
 
 #image {
 	display: block;
-	max-width: 100%;
+	max-width: 45%;
     max-height: auto;
     margin: 0 auto;
+    animation-duration: 5s;
 }
+
+#image:hover {
+	
+	box-shadow: 5px 0px;
+}
+
+
 
 #img-caption {
 	display: block;
